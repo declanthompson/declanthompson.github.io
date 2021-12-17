@@ -12,22 +12,30 @@ weight: 30
 title: Skills
 subtitle:
 
+design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '2'
+
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
-  icon: r-project
+- description: "\u200a>5,000 lines"
+  icon: java
   icon_pack: fab
-  name: R
-- description: 100%
-  icon: chart-line
+  name: Java
+- description: "\u200a>5,000 lines"
+  icon: TeX_logo
+  icon_pack: custom
+  name: LaTeX
+- description: Familiar
+  icon: python
+  icon_pack: fab
+  name: Python
+- description: Familiar
+  icon: code
   icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
-  icon_pack: fas
-  name: Photography
+  name: C
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
