@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boolean Variable | Declan Thompson</title>
-    <link>https://declanthompson.github.io//tag/boolean-variable/</link>
-      <atom:link href="https://declanthompson.github.io//tag/boolean-variable/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://declanthompson.github.io/tag/boolean-variable/</link>
+      <atom:link href="https://declanthompson.github.io/tag/boolean-variable/index.xml" rel="self" type="application/rss+xml" />
     <description>Boolean Variable</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
       <title>Boolean Variable</title>
-      <link>https://declanthompson.github.io//tag/boolean-variable/</link>
+      <link>https://declanthompson.github.io/tag/boolean-variable/</link>
     </image>
     
     <item>
       <title>Boolean Network Games and Iterated Boolean Games</title>
-      <link>https://declanthompson.github.io//publication/seligman-boolean-2015/</link>
+      <link>https://declanthompson.github.io/publication/seligman-boolean-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://declanthompson.github.io//publication/seligman-boolean-2015/</guid>
+      <guid>https://declanthompson.github.io/publication/seligman-boolean-2015/</guid>
       <description></description>
     </item>
     

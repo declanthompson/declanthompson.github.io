@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: "Declan Thompson" # Website name
-baseurl: 'https://declanthompson.github.io//' # Website URL
+baseurl: 'https://declanthompson.github.io/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################

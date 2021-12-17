@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Declan Thompson</title>
-    <link>https://declanthompson.github.io//projects/</link>
-      <atom:link href="https://declanthompson.github.io//projects/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://declanthompson.github.io/projects/</link>
+      <atom:link href="https://declanthompson.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://declanthompson.github.io//projects/</link>
+      <link>https://declanthompson.github.io/projects/</link>
     </image>
     
     <item>
       <title>Formal Characterisations of &#39;Algorithm&#39;</title>
-      <link>https://declanthompson.github.io//projects/algorithms/</link>
+      <link>https://declanthompson.github.io/projects/algorithms/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://declanthompson.github.io//projects/algorithms/</guid>
+      <guid>https://declanthompson.github.io/projects/algorithms/</guid>
       <description>&lt;p&gt;The notion of &lt;em&gt;computable function&lt;/em&gt; has been widely studied in theoretical computer science, and it is often assumed that any questions we have about &lt;em&gt;algorithms&lt;/em&gt; can be answer by using one of the traditional models of computation (Turing machines, recursive functions, etc.). This assumption fails to square with the way &lt;em&gt;algorithm&lt;/em&gt; is used in computer science practice. When discussing algorithms, we are not merely interested in input/output behaviour, since we mark a distinction between different algorithms for the same task. On the other hand, an algorithm is not a &lt;em&gt;program&lt;/em&gt; or Turing machine, since multiple programs, in different programming languages, can implement the same algorithm. An adequate formal characterisation of &lt;em&gt;algorithm&lt;/em&gt; has yet to be proposed.&lt;/p&gt;
 &lt;p&gt;This project focusses on analysing the notion of &lt;em&gt;algorithm&lt;/em&gt;, with a view to formalising statements like &amp;ldquo;MergeSort runs in $O(n \log n)$ time&amp;rdquo;, &amp;ldquo;Program $\pi$ implements Algorithm $A$&amp;rdquo; and &amp;ldquo;Kruskal&amp;rsquo;s algorithm is correct for the Minimum Spanning Tree problem&amp;rdquo;. Major existing work in this area can be found by authors including Yuri Gurevich, Yiannia Moschovakis and Walter Dean.&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Games on Networks</title>
-      <link>https://declanthompson.github.io//projects/bng/</link>
+      <link>https://declanthompson.github.io/projects/bng/</link>
       <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://declanthompson.github.io//projects/bng/</guid>
+      <guid>https://declanthompson.github.io/projects/bng/</guid>
       <description>&lt;p&gt;Games played in social networks provide interesting models of numerous social phenomena. In a series of papers, I have investigated properties of &lt;em&gt;Boolean Network Games&lt;/em&gt; and related models. A Boolean Network Game consists of a set of players arranged in a social network, each assigned a formula of modal logic as a goal to be made true. Each player has control over the valuation of propositions at their position in the network. The games are inter-reducible with &lt;em&gt;Iterated Boolean Games&lt;/em&gt;, though with an exponential increase in size.&lt;/p&gt;
 &lt;p&gt;As a tool for studying games such as these, I have investigated &lt;em&gt;Local Fact Change Logic&lt;/em&gt;, a model change modal logic with an operator which changes the valuation at the current world only. The addition of this simple operator causes satisfiability to become undecidable, and model-checking to leap to being PSPACE-complete.&lt;/p&gt;
 </description>
@@ -34,9 +34,9 @@
     
     <item>
       <title>Natural Deduction Planner</title>
-      <link>https://declanthompson.github.io//projects/ndp/</link>
+      <link>https://declanthompson.github.io/projects/ndp/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://declanthompson.github.io//projects/ndp/</guid>
+      <guid>https://declanthompson.github.io/projects/ndp/</guid>
       <description></description>
     </item>
     
