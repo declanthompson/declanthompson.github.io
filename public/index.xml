@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Declan Thompson</title>
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Declan Thompson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 13:30:00 -0700</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
+      <title>Declan Thompson</title>
+      <link>https://example.com/</link>
+    </image>
+    
+    <item>
+      <title>Towards a Formal Model of Algorithms</title>
+      <link>https://example.com/talk/4yt_2020-05-22/</link>
+      <pubDate>Fri, 22 May 2020 13:30:00 -0700</pubDate>
+      <guid>https://example.com/talk/4yt_2020-05-22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Fact Change Logic</title>
+      <link>https://example.com/publication/thompson-local-2020/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/thompson-local-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal Characterisations of Algorithm</title>
+      <link>https://example.com/talk/ihpst_20-02-27/</link>
+      <pubDate>Thu, 27 Feb 2020 16:00:00 +0100</pubDate>
+      <guid>https://example.com/talk/ihpst_20-02-27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Fact Change Logic, Memory Logic and Expressive Power</title>
+      <link>https://example.com/talk/lira_2020-02-13/</link>
+      <pubDate>Thu, 13 Feb 2020 16:30:00 +0100</pubDate>
+      <guid>https://example.com/talk/lira_2020-02-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal Characterisations of &#39;Algorithm&#39;</title>
+      <link>https://example.com/projects/algorithms/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/algorithms/</guid>
+      <description>&lt;p&gt;The notion of &lt;em&gt;computable function&lt;/em&gt; has been widely studied in theoretical computer science, and it is often assumed that any questions we have about &lt;em&gt;algorithms&lt;/em&gt; can be answer by using one of the traditional models of computation (Turing machines, recursive functions, etc.). This assumption fails to square with the way &lt;em&gt;algorithm&lt;/em&gt; is used in computer science practice. When discussing algorithms, we are not merely interested in input/output behaviour, since we mark a distinction between different algorithms for the same task. On the other hand, an algorithm is not a &lt;em&gt;program&lt;/em&gt; or Turing machine, since multiple programs, in different programming languages, can implement the same algorithm. An adequate formal characterisation of &lt;em&gt;algorithm&lt;/em&gt; has yet to be proposed.&lt;/p&gt;
+&lt;p&gt;This project focusses on analysing the notion of &lt;em&gt;algorithm&lt;/em&gt;, with a view to formalising statements like &amp;ldquo;MergeSort runs in $O(n \log n)$ time&amp;rdquo;, &amp;ldquo;Program $\pi$ implements Algorithm $A$&amp;rdquo; and &amp;ldquo;Kruskal&amp;rsquo;s algorithm is correct for the Minimum Spanning Tree problem&amp;rdquo;. Major existing work in this area can be found by authors including Yuri Gurevich, Yiannia Moschovakis and Walter Dean.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Local Fact Change Logic, Memory Logic and Expressive Power</title>
+      <link>https://example.com/talk/tsu_19-10-06/</link>
+      <pubDate>Wed, 16 Oct 2019 16:30:00 +0800</pubDate>
+      <guid>https://example.com/talk/tsu_19-10-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Games on Networks</title>
+      <link>https://example.com/projects/bng/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/bng/</guid>
+      <description>&lt;p&gt;Games played in social networks provide interesting models of numerous social phenomena. In a series of papers, I have investigated properties of &lt;em&gt;Boolean Network Games&lt;/em&gt; and related models. A Boolean Network Game consists of a set of players arranged in a social network, each assigned a formula of modal logic as a goal to be made true. Each player has control over the valuation of propositions at their position in the network. The games are inter-reducible with &lt;em&gt;Iterated Boolean Games&lt;/em&gt;, though with an exponential increase in size.&lt;/p&gt;
+&lt;p&gt;As a tool for studying games such as these, I have investigated &lt;em&gt;Local Fact Change Logic&lt;/em&gt;, a model change modal logic with an operator which changes the valuation at the current world only. The addition of this simple operator causes satisfiability to become undecidable, and model-checking to leap to being PSPACE-complete.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Night of Recreational Logic</title>
+      <link>https://example.com/talk/gsw_19-05-02/</link>
+      <pubDate>Thu, 02 May 2019 18:30:00 -0700</pubDate>
+      <guid>https://example.com/talk/gsw_19-05-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://example.com/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   **Two** 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three 
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching Natural Deduction in the Right Order with Natural Deduction Planner</title>
+      <link>https://example.com/publication/thompson-teaching-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/thompson-teaching-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Deduction Planner</title>
+      <link>https://example.com/projects/ndp/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/ndp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incompleteness, Undecidability and Automated Proofs</title>
+      <link>https://example.com/publication/calude-incompleteness-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/calude-incompleteness-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boolean Network Games and Iterated Boolean Games</title>
+      <link>https://example.com/publication/seligman-boolean-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/seligman-boolean-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formalisation vs. Understanding</title>
+      <link>https://example.com/publication/thompson-formalisation-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/thompson-formalisation-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Running of the Booles: An Investigation into Boolean Network Games</title>
+      <link>https://example.com/publication/thompson-running-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/thompson-running-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/background/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications and Conferences</title>
+      <link>https://example.com/confpub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/confpub/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

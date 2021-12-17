@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global State | Declan Thompson</title>
+    <link>https://example.com/tag/global-state/</link>
+      <atom:link href="https://example.com/tag/global-state/index.xml" rel="self" type="application/rss+xml" />
+    <description>Global State</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
+      <title>Global State</title>
+      <link>https://example.com/tag/global-state/</link>
+    </image>
+    
+    <item>
+      <title>Boolean Network Games and Iterated Boolean Games</title>
+      <link>https://example.com/publication/seligman-boolean-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/seligman-boolean-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

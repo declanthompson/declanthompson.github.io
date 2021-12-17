@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASM | Declan Thompson</title>
+    <link>https://example.com/tag/asm/</link>
+      <atom:link href="https://example.com/tag/asm/index.xml" rel="self" type="application/rss+xml" />
+    <description>ASM</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
+      <title>ASM</title>
+      <link>https://example.com/tag/asm/</link>
+    </image>
+    
+    <item>
+      <title>Formal Characterisations of &#39;Algorithm&#39;</title>
+      <link>https://example.com/projects/algorithms/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/algorithms/</guid>
+      <description>&lt;p&gt;The notion of &lt;em&gt;computable function&lt;/em&gt; has been widely studied in theoretical computer science, and it is often assumed that any questions we have about &lt;em&gt;algorithms&lt;/em&gt; can be answer by using one of the traditional models of computation (Turing machines, recursive functions, etc.). This assumption fails to square with the way &lt;em&gt;algorithm&lt;/em&gt; is used in computer science practice. When discussing algorithms, we are not merely interested in input/output behaviour, since we mark a distinction between different algorithms for the same task. On the other hand, an algorithm is not a &lt;em&gt;program&lt;/em&gt; or Turing machine, since multiple programs, in different programming languages, can implement the same algorithm. An adequate formal characterisation of &lt;em&gt;algorithm&lt;/em&gt; has yet to be proposed.&lt;/p&gt;
+&lt;p&gt;This project focusses on analysing the notion of &lt;em&gt;algorithm&lt;/em&gt;, with a view to formalising statements like &amp;ldquo;MergeSort runs in $O(n \log n)$ time&amp;rdquo;, &amp;ldquo;Program $\pi$ implements Algorithm $A$&amp;rdquo; and &amp;ldquo;Kruskal&amp;rsquo;s algorithm is correct for the Minimum Spanning Tree problem&amp;rdquo;. Major existing work in this area can be found by authors including Yuri Gurevich, Yiannia Moschovakis and Walter Dean.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
