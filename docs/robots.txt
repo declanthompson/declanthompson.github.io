@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://declanthompson.github.io/sitemap.xml

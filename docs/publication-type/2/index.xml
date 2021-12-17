@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Declan Thompson</title>
+    <link>https://declanthompson.github.io//publication-type/2/</link>
+      <atom:link href="https://declanthompson.github.io//publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://declanthompson.github.io//publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Local Fact Change Logic</title>
+      <link>https://declanthompson.github.io//publication/thompson-local-2020/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://declanthompson.github.io//publication/thompson-local-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching Natural Deduction in the Right Order with Natural Deduction Planner</title>
+      <link>https://declanthompson.github.io//publication/thompson-teaching-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://declanthompson.github.io//publication/thompson-teaching-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
