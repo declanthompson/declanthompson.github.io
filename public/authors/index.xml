@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/authors/</link>
+      <atom:link href="http://stanford.edu/~declan/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>http://stanford.edu/~declan/authors/</link>
+    </image>
+    
+    <item>
+      <title>Declan Thompson</title>
+      <link>http://stanford.edu/~declan/authors/declan-thompson/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/authors/declan-thompson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jeremy Seligman</title>
+      <link>http://stanford.edu/~declan/authors/jeremy-seligman/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/authors/jeremy-seligman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cristian S. Calude</title>
+      <link>http://stanford.edu/~declan/authors/cristian-s.-calude/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/authors/cristian-s.-calude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://stanford.edu/~declan/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/authors/admin/</guid>
+      <description>&lt;p&gt;I&#39;m a philosophy graduate student at Stanford University, researching the concept of an algorithm. I&#39;m interested in finding a formal definition for &lt;em&gt;algorithm&lt;/em&gt; which can account for common usage in modern computer science, particularly fields like algorithmic analysis. Apart from this, I&#39;m pursuing projects in dynamic logic and network games,  and develop a software tool for completing natural deduction proofs.   I enjoy taking on new challenges, which allow me to expand my knowledge and skill set.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

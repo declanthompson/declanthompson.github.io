@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>natural deduction | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/tags/natural-deduction/</link>
+      <atom:link href="http://stanford.edu/~declan/tags/natural-deduction/index.xml" rel="self" type="application/rss+xml" />
+    <description>natural deduction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>natural deduction</title>
+      <link>http://stanford.edu/~declan/tags/natural-deduction/</link>
+    </image>
+    
+    <item>
+      <title>Natural Deduction Planner</title>
+      <link>http://stanford.edu/~declan/project/ndp/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/project/ndp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

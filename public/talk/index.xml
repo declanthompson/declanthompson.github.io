@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/talk/</link>
+      <atom:link href="http://stanford.edu/~declan/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 13:30:00 -0700</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://stanford.edu/~declan/talk/</link>
+    </image>
+    
+    <item>
+      <title>Towards a Formal Model of Algorithms</title>
+      <link>http://stanford.edu/~declan/talk/4yt_2020-05-22/</link>
+      <pubDate>Fri, 22 May 2020 13:30:00 -0700</pubDate>
+      <guid>http://stanford.edu/~declan/talk/4yt_2020-05-22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal Characterisations of Algorithm</title>
+      <link>http://stanford.edu/~declan/talk/ihpst_20-02-27/</link>
+      <pubDate>Thu, 27 Feb 2020 16:00:00 +0100</pubDate>
+      <guid>http://stanford.edu/~declan/talk/ihpst_20-02-27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Fact Change Logic, Memory Logic and Expressive Power</title>
+      <link>http://stanford.edu/~declan/talk/lira_2020-02-13/</link>
+      <pubDate>Thu, 13 Feb 2020 16:30:00 +0100</pubDate>
+      <guid>http://stanford.edu/~declan/talk/lira_2020-02-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Fact Change Logic, Memory Logic and Expressive Power</title>
+      <link>http://stanford.edu/~declan/talk/tsu_19-10-06/</link>
+      <pubDate>Wed, 16 Oct 2019 16:30:00 +0800</pubDate>
+      <guid>http://stanford.edu/~declan/talk/tsu_19-10-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Night of Recreational Logic</title>
+      <link>http://stanford.edu/~declan/talk/gsw_19-05-02/</link>
+      <pubDate>Thu, 02 May 2019 18:30:00 -0700</pubDate>
+      <guid>http://stanford.edu/~declan/talk/gsw_19-05-02/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

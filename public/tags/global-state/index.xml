@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global State | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/tags/global-state/</link>
+      <atom:link href="http://stanford.edu/~declan/tags/global-state/index.xml" rel="self" type="application/rss+xml" />
+    <description>Global State</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>Global State</title>
+      <link>http://stanford.edu/~declan/tags/global-state/</link>
+    </image>
+    
+    <item>
+      <title>Boolean Network Games and Iterated Boolean Games</title>
+      <link>http://stanford.edu/~declan/publication/seligman-boolean-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/publication/seligman-boolean-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Turing machines | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/tags/turing-machines/</link>
+      <atom:link href="http://stanford.edu/~declan/tags/turing-machines/index.xml" rel="self" type="application/rss+xml" />
+    <description>Turing machines</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>Turing machines</title>
+      <link>http://stanford.edu/~declan/tags/turing-machines/</link>
+    </image>
+    
+    <item>
+      <title>Formal Characterisations of &#39;Algorithm&#39;</title>
+      <link>http://stanford.edu/~declan/project/algorithms/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://stanford.edu/~declan/project/algorithms/</guid>
+      <description>&lt;p&gt;The notion of &lt;em&gt;computable function&lt;/em&gt; has been widely studied in theoretical computer science, and it is often assumed that any questions we have about &lt;em&gt;algorithms&lt;/em&gt; can be answer by using one of the traditional models of computation (Turing machines, recursive functions, etc.). This assumption fails to square with the way &lt;em&gt;algorithm&lt;/em&gt; is used in computer science practice. When discussing algorithms, we are not merely interested in input/output behaviour, since we mark a distinction between different algorithms for the same task. On the other hand, an algorithm is not a &lt;em&gt;program&lt;/em&gt; or Turing machine, since multiple programs, in different programming languages, can implement the same algorithm. An adequate formal characterisation of &lt;em&gt;algorithm&lt;/em&gt; has yet to be proposed.&lt;/p&gt;
+&lt;p&gt;This project focusses on analysing the notion of &lt;em&gt;algorithm&lt;/em&gt;, with a view to formalising statements like &amp;ldquo;MergeSort runs in $O(n \log n)$ time&amp;rdquo;, &amp;ldquo;Program $\pi$ implements Algorithm $A$&amp;rdquo; and &amp;ldquo;Kruskal&#39;s algorithm is correct for the Minimum Spanning Tree problem&amp;rdquo;. Major existing work in this area can be found by authors including Yuri Gurevich, Yiannia Moschovakis and Walter Dean.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

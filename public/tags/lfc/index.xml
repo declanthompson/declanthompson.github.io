@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lfc | Declan Thompson</title>
+    <link>http://stanford.edu/~declan/tags/lfc/</link>
+      <atom:link href="http://stanford.edu/~declan/tags/lfc/index.xml" rel="self" type="application/rss+xml" />
+    <description>lfc</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 May 2019 18:30:00 -0700</lastBuildDate>
+    <image>
+      <url>http://stanford.edu/~declan/img/icon-192.png</url>
+      <title>lfc</title>
+      <link>http://stanford.edu/~declan/tags/lfc/</link>
+    </image>
+    
+    <item>
+      <title>A Night of Recreational Logic</title>
+      <link>http://stanford.edu/~declan/talk/gsw_19-05-02/</link>
+      <pubDate>Thu, 02 May 2019 18:30:00 -0700</pubDate>
+      <guid>http://stanford.edu/~declan/talk/gsw_19-05-02/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
