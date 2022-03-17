@@ -68,5 +68,3 @@ highlight_name: true
 ---
 
 I'm a philosophy graduate student at Stanford University, researching the concept of an algorithm. I'm interested in finding a formal definition for *algorithm* which can account for common usage in modern computer science, particularly fields like algorithmic analysis. Apart from this, I'm pursuing projects in dynamic logic and network games,  and develop a software tool for completing natural deduction proofs.   I enjoy taking on new challenges, which allow me to expand my knowledge and skill set.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
