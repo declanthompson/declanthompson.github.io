@@ -3,11 +3,11 @@
 widget = "education"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 45  # Order that this section will appear.
 
 view = "4"
 
-title = "Qualifications"
+title = "Education"
 subtitle = ""
 
 # Date format for experience
@@ -20,7 +20,57 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+[[experience]]
+  title = "PhD in Philosophy"
+  grade = "Special Track in Symbolic Systems"
+  company = "Stanford Univeristy"
+  company_url = "https://www.stanford.edu/"
+  location = "Stanford, CA, USA"
+  date_start = "2016-09-23"
+  # date_end = "2015-11-01"
+  coursework = """
+  Dept.    | Num. | Title
+--------|------|-----------
+  COMPLIT | 232 | Programming and Poetry
+  CS | 267 | Graph Algorithms
+  ENGR | 311B | Designing the Professional
+  FRENLANG | 395 | Graduate Studies in French
+  LINGUIST | 236 | Formal Semantics and the Psychology of Reasoning
+  LINGUIST | 280 | From Languages to Information
+  LINGUIST | 288 | Natural Language Understanding
+  PHIL | 239 | Teaching Methods in Philosophy
+  PHIL | 278C | Free Speech, Academic Freedom, and Democracy
+  PHIL | 281C | Slurs and Derogatory Language
+  PHIL | 284 | Epistemology
+  PHIL | 322 | Hume
+  PHIL | 348 | Evolution of Signalling
+  PHIL | 351C | Formal Methods in Ethics
+  PHIL | 356C | Logic and Artificial Intelligence
+  PHIL | 359 | Topics in Logic, Information and Agency
+  PHIL | 360 | Philosophy of Neuroscience
+  PHIL | 364M | Mathematics in Practice
+  PHIL | 391 | Research Seminar in Logic
+  PSYCH | 204 | Computation and Cognition: The Probabilistic Approach
+  """
+  advisor = "Advisor: [Thomas Icard](https://web.stanford.edu/~icard/)"
+  major = "Dissertation: Algorithms and Execution Traces"
 
+[[experience]]
+  title = "Graduate Certificate in Computer Science Education"
+  company = "Stanford Univeristy"
+  company_url = "https://www.stanford.edu/"
+  location = "Stanford, CA, USA"
+  date_start = "2020-09-23"
+  # date_end = "2015-11-01"
+  coursework = """
+  Dept.    | Num. | Title
+--------|------|-----------
+  CS | 107 | Computer Organization and Systems
+  CS | 109 | Introduction to Probability for Computer Scientists
+  CS | 110 | Principles of Computer Systems
+  CS | 143 | Compilers
+  CS | 298 | Seminar on Teaching Introductory Computer Science
+  """
 
 [[experience]]
   title = "Bachelor of Arts (Honours) in Logic and Computation"
@@ -39,7 +89,7 @@ date_format = "Jan 2006"
   Maths | 715 | Graph Theory and Combinatorics |
   Phil | 736 | Logic 1 |
   Phil | 737 | Logic 2 | 1st
-  
+
   1st indicates the highest mark in a course.
 
   """
@@ -77,7 +127,7 @@ date_format = "Jan 2006"
   Physics | 107 | Planets, Stars and Galaxies |
   Physics | 150 | Physics of Technology |
   Physics | 251 | Modern Physics |
-  
+
   1st indicates the highest mark in a course.
   """
 
@@ -110,10 +160,10 @@ date_format = "Jan 2006"
   Phil | 105 | Critical Thinking |
   Phil | 222 | Intermediate Logic | 1st
   Phil | 315 | Topics in Applied Logic | 1st
-  
+
    1st indicates the highest mark in a course.
   """
- 
+
 [[experience]]
   title = "National Certificate of Educational Achievement, Level 3"
   grade = "Excellence"
@@ -128,10 +178,10 @@ date_format = "Jan 2006"
   - English
   - Mathematics with Calculus
   - Physics
-  
+
   All subjects taken at NZ Scholarship level.
   """
-  
+
 [[experience]]
   title = "National Certificate of Educational Achievement, Level 2"
   grade = "Excellence"
@@ -148,7 +198,7 @@ date_format = "Jan 2006"
   - Physics
   - Thinking Skills (Cambridge International AS-Level)
   """
-  
+
 [[experience]]
   title = "National Certificate of Educational Achievement, Level 1"
   grade = "Excellence"

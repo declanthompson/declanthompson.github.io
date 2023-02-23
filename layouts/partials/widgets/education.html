@@ -33,15 +33,15 @@
         <div class="card">
           <div class="card-body">
 			<h4 class="card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}} <small>{{.grade | markdownify | emojify}}</small></h4>
-            <h4 class="card-title exp-company text-muted my-0">
+            <div class="text-muted exp-meta">
 			{{ if .advisor}}
 				{{with .advisor}}
-                <span>{{. | markdownify | emojify}}</span>				
+                <span>{{. | markdownify | emojify}}</span>
                 <span class="middot-divider"></span>
               {{end}}
-			{{end}} 
+			{{end}}
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
-            </h4>
+            </div>
             <div class="text-muted exp-meta">
               {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
               {{ if .date_end}}
