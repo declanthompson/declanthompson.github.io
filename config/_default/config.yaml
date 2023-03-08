@@ -22,8 +22,14 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/declanthompson/wowchemy-block-education
+    - path: github.com/shoginn/wowchemy-block-countdown-timer
+    - path: github.com/declanthompson/wowchemy-block-countdown-timer
+
 
 ############################
 ## ADVANCED
@@ -68,7 +74,6 @@ related:
     - name: categories
       weight: 70
 security:
-  funcs:
-    getenv:
-      - ^HUGO_
-      - ^WC_
+  _merge: deep
+sitemap:
+  _merge: deep

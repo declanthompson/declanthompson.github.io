@@ -17,14 +17,29 @@ content:
   autolink: true
 
   # Email form provider
-  form:
-    provider:
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  # form:
+  #   provider: netlify
+  #   formspree:
+  #     id:
+  #   netlify:
+  #     # Enable CAPTCHA challenge to reduce spam?
+  #     captcha: false
 
-design:
-  columns: '2'
+  # Contact details (edit or remove options as required)
+  email: declanthompsonnz@gmail.com
+  # phone:
+  address:
+    street: 450 Jane Stanford Way, Bldg 90
+    city: Stanford
+    region: CA
+    postcode: '94305'
+    country: United States
+    country_code: US
+  coordinates:
+    latitude: '37.4275'
+    longitude: '-122.1697'
+
+
+  design:
+    columns: '2'
 ---

@@ -1,34 +1,26 @@
 +++
 # Experience widget.
-widget = "education"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 45  # Order that this section will appear.
-
+widget = "github.declanthompson.education"
+headless = true
+active = true
+weight = 45
 view = "4"
-
 title = "Education"
 subtitle = ""
-
-# Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+[design]
+columns = 2
 
 [[experience]]
-  title = "PhD in Philosophy"
-  grade = "Special Track in Symbolic Systems"
-  company = "Stanford Univeristy"
-  company_url = "https://www.stanford.edu/"
-  location = "Stanford, CA, USA"
-  date_start = "2016-09-23"
-  # date_end = "2015-11-01"
-  coursework = """
+title = "PhD in Philosophy"
+grade = "Special Track in Symbolic Systems"
+company = "Stanford University"
+company_url = "https://www.stanford.edu/"
+location = "Stanford, CA, USA"
+date_start = "2016-09-23"
+description = ""
+coursework = """
   Dept.    | Num. | Title
 --------|------|-----------
   COMPLIT | 232 | Programming and Poetry
@@ -52,17 +44,16 @@ date_format = "Jan 2006"
   PHIL | 391 | Research Seminar in Logic
   PSYCH | 204 | Computation and Cognition: The Probabilistic Approach
   """
-  advisor = "Advisor: [Thomas Icard](https://web.stanford.edu/~icard/)"
-  major = "Dissertation: Algorithms and Execution Traces"
+advisor = "Advisor: [Thomas Icard](https://web.stanford.edu/~icard/)"
+major = "Dissertation: *Algorithms and Execution Traces*"
 
 [[experience]]
-  title = "Graduate Certificate in Computer Science Education"
-  company = "Stanford Univeristy"
-  company_url = "https://www.stanford.edu/"
-  location = "Stanford, CA, USA"
-  date_start = "2020-09-23"
-  # date_end = "2015-11-01"
-  coursework = """
+title = "Graduate Certificate in Computer Science Education"
+company = "Stanford University"
+company_url = "https://www.stanford.edu/"
+location = "Stanford, CA, USA"
+date_start = "2020-09-23"
+coursework = """
   Dept.    | Num. | Title
 --------|------|-----------
   CS | 107 | Computer Organization and Systems
@@ -73,14 +64,14 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Bachelor of Arts (Honours) in Logic and Computation"
-  grade = "First Class Honours"
-  company = "The University of Auckland"
-  company_url = "https://www.auckland.ac.nz/en.html"
-  location = "Auckland, New Zealand"
-  date_start = "2015-03-01"
-  date_end = "2015-11-01"
-  coursework = """
+title = "Bachelor of Arts (Honours) in Logic and Computation"
+grade = "First Class Honours"
+company = "The University of Auckland"
+company_url = "https://www.auckland.ac.nz/en.html"
+location = "Auckland, New Zealand"
+date_start = "2015-03-01"
+date_end = "2015-11-01"
+coursework = """
   Dept.    | Num. | Title | Notes
 --------|------|-----------|------
   CompSci | 720 | Advanced Design and Analysis of Algorithms | 1st
@@ -93,18 +84,18 @@ date_format = "Jan 2006"
   1st indicates the highest mark in a course.
 
   """
-  advisor = "Advisor: [Jeremy Seligman](http://www.arts.auckland.ac.nz/people/jsel014)"
-  major = "Dissertation: [*The Running of the Booles: An Investigation into Boolean Network Games*](../publication/thompson-running-2015/)"
+advisor = "Advisor: [Jeremy Seligman](http://www.arts.auckland.ac.nz/people/jsel014)"
+major = "Dissertation: [*The Running of the Booles: An Investigation into Boolean Network Games*](../publication/thompson-running-2015/)"
 
 [[experience]]
-  title = "Bachelor of Science"
-  major = "Majors: *Logic and Computation, Mathematics*"
-  company = "The University of Auckland"
-  company_url = "https://www.auckland.ac.nz/en.html"
-  location = "Auckland, New Zealand"
-  date_start = "2011-03-01"
-  date_end = "2014-11-01"
-  coursework = """
+title = "Bachelor of Science"
+major = "Majors: *Logic and Computation, Mathematics*"
+company = "The University of Auckland"
+company_url = "https://www.auckland.ac.nz/en.html"
+location = "Auckland, New Zealand"
+date_start = "2011-03-01"
+date_end = "2014-11-01"
+coursework = """
   Dept.    | Num. | Title | Notes
 --------|------|-----------|------
   CompSci | 101 | Principles of Programming |
@@ -132,15 +123,15 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Bachelor of Arts"
-  grade = "Senior Scholar"
-  major = "Major: *Linguistics*"
-  company = "University of Auckland"
-  company_url = "https://www.auckland.ac.nz/en.html"
-  location = "Auckland, New Zealand"
-  date_start = "2011-03-01"
-  date_end = "2014-11-01"
-  coursework = """
+title = "Bachelor of Arts"
+grade = "Senior Scholar"
+major = "Major: *Linguistics*"
+company = "University of Auckland"
+company_url = "https://www.auckland.ac.nz/en.html"
+location = "Auckland, New Zealand"
+date_start = "2011-03-01"
+date_end = "2014-11-01"
+coursework = """
   Dept.    | Num. | Title | Notes
 --------|------|-----------|------
   Anthro | 106G | Issues and History in Popular Music |
@@ -165,49 +156,51 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "National Certificate of Educational Achievement, Level 3"
-  grade = "Excellence"
-  company = "Selwyn College"
-  company_url = "http://selwyn.school.nz/Home/"
-  location = "Auckland, New Zealand"
-  date_start = "2010-02-01"
-  date_end = "2010-11-01"
-  coursework = """
+title = "National Certificate of Educational Achievement, Level 3"
+grade = "Excellence"
+company = "Selwyn College"
+company_url = "http://selwyn.school.nz/Home/"
+location = "Auckland, New Zealand"
+date_start = "2010-02-01"
+date_end = "2010-11-01"
+coursework = """
   - Chemistry
   - Drama
   - English
   - Mathematics with Calculus
   - Physics
 
-  All subjects taken at NZ Scholarship level.
+  All subjects taken at NZ Scholarship level. NZ Scholarship awarded for Chemistry and English.
   """
 
 [[experience]]
-  title = "National Certificate of Educational Achievement, Level 2"
-  grade = "Excellence"
-  company = "Selwyn College"
-  company_url = "http://selwyn.school.nz/Home/"
-  location = "Auckland, New Zealand"
-  date_start = "2009-02-01"
-  date_end = "2009-11-01"
-  coursework = """
+title = "National Certificate of Educational Achievement, Level 2"
+grade = "Excellence"
+company = "Selwyn College"
+company_url = "http://selwyn.school.nz/Home/"
+location = "Auckland, New Zealand"
+date_start = "2009-02-01"
+date_end = "2009-11-01"
+coursework = """
   - Chemistry
   - Drama
   - English
   - Mathematics
   - Physics
   - Thinking Skills (Cambridge International AS-Level)
+
+  First in country award for Thinking Skills.
   """
 
 [[experience]]
-  title = "National Certificate of Educational Achievement, Level 1"
-  grade = "Excellence"
-  company = "Selwyn College"
-  company_url = "http://selwyn.school.nz/Home/"
-  location = "Auckland, New Zealand"
-  date_start = "2008-02-01"
-  date_end = "2008-11-01"
-  coursework = """
+title = "National Certificate of Educational Achievement, Level 1"
+grade = "Excellence"
+company = "Selwyn College"
+company_url = "http://selwyn.school.nz/Home/"
+location = "Auckland, New Zealand"
+date_start = "2008-02-01"
+date_end = "2008-11-01"
+coursework = """
   - Drama
   - English
   - French
@@ -215,7 +208,6 @@ date_format = "Jan 2006"
   - Philosophy
   - Science
   """
-
 
 
 +++

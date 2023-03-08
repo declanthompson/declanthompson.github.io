@@ -15,7 +15,7 @@ main:
     url: 'background/#experience'
     weight: 25
     parent: 'background_menu'
-  - name: Qualifications
+  - name: Education
     url: 'background/#education'
     weight: 26
     parent: 'background_menu'
