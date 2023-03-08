@@ -17,4 +17,21 @@ name = "decltheme"
   home_section_odd = "#EAEBEB"
   home_section_even = "#F2F3F7"
 
-  font = "rose" 
+  font = "rose"
+
+[dark]
+  # Primary
+  primary = "#D6281C"
+
+  # Menu
+  menu_primary = "#2E282A"
+  menu_text = "#EAEBEB"
+  menu_text_active = "#D6281C"
+  menu_title = "#EAEBEB"
+
+  # Backgrounds
+  background = "#EAEBEB"
+  home_section_odd = "#EAEBEB"
+  home_section_even = "#F2F3F7"
+
+  font = "rose"

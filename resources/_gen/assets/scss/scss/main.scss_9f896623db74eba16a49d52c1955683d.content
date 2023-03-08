@@ -7352,11 +7352,11 @@ a:focus {
 
 .dark a,
 .dark h3.article-title a:hover {
-  color: #bbdefb; }
+  color: #D6281C; }
 
 .dark a:not(.btn):hover,
 .dark a:not(.btn):focus {
-  color: #bbdefb; }
+  color: #D6281C; }
 
 pre,
 code {
@@ -8115,7 +8115,7 @@ a.summary-link {
   background: #EAEBEB; }
 
 .dark .modal-content {
-  background: #23252f; }
+  background: #EAEBEB; }
 
 .modal-title {
   margin: 0;
@@ -8194,18 +8194,18 @@ a.summary-link {
     color: #D6281C !important; }
 
 .dark .navbar {
-  background: #282a36;
+  background: #2E282A;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, 0.11); }
   .dark .navbar .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.85); }
+    color: rgba(234, 235, 235, 0.85); }
     .dark .navbar .navbar-nav .nav-link.active, .dark .navbar .navbar-nav .nav-link:hover, .dark .navbar .navbar-nav .nav-link:focus {
-      color: rgba(255, 255, 255, 0.8); }
+      color: #D6281C; }
     .dark .navbar .navbar-nav .nav-link.active {
       font-weight: bold !important;
-      color: rgba(255, 255, 255, 0.8) !important; }
+      color: #D6281C !important; }
   .dark .navbar .dropdown-item.active,
   .dark .navbar .dropdown-item-active {
-    color: rgba(255, 255, 255, 0.8) !important; }
+    color: #D6281C !important; }
 
 .navbar-toggler {
   border: 0 !important;
@@ -8213,7 +8213,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-toggler {
-  color: white; }
+  color: #EAEBEB; }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -8246,7 +8246,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-brand {
-  color: white; }
+  color: #EAEBEB; }
 
 .navbar-brand img {
   width: auto;
@@ -8261,7 +8261,7 @@ a.summary-link {
   color: #EAEBEB; }
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
-  color: white; }
+  color: #EAEBEB; }
 
 @media (max-width: 991.98px) {
   .navbar-brand-mobile-wrapper {
@@ -8286,7 +8286,7 @@ a.summary-link {
     background-color: #2E282A;
     text-align: center !important; }
   .dark .navbar-collapse {
-    background-color: #282a36; }
+    background-color: #2E282A; }
   #navbar-main .main-menu-item .nav-item {
     padding: 10px 15px !important; }
   #navbar-main .main-menu-item .nav-item .nav-link {
@@ -8309,16 +8309,16 @@ ul.nav-icons li.nav-item a.nav-link {
   padding: 0; }
 
 .dark .dropdown-menu {
-  background-color: #282a36 !important;
-  color: white !important; }
+  background-color: #2E282A !important;
+  color: #EAEBEB !important; }
 
 .dropdown-item {
   background-color: #2E282A !important;
   color: #EAEBEB !important; }
 
 .dark .dropdown-item {
-  background-color: #282a36 !important;
-  color: white !important; }
+  background-color: #2E282A !important;
+  color: #EAEBEB !important; }
 
 /*************************************************
  *  Pager.
@@ -8800,7 +8800,7 @@ html[dir='rtl'] body {
   z-index: -99; }
 
 .dark .search-modal {
-  background-color: #23252f; }
+  background-color: #EAEBEB; }
 
 .search-modal > .container {
   padding-top: 70px;
@@ -8822,7 +8822,7 @@ html[dir='rtl'] body {
     .search-header {
       padding-top: 0; } }
 .dark .search-header {
-  background-color: #23252f; }
+  background-color: #EAEBEB; }
 
 .search-header h1 {
   margin: 0;
@@ -8874,7 +8874,7 @@ html[dir='rtl'] body {
   line-height: 1; }
 
 .dark #search-query {
-  background-color: #23252f; }
+  background-color: #EAEBEB; }
 
 #search-box #search-query {
   border: 1px solid #dedede;
@@ -8955,7 +8955,7 @@ html[dir='rtl'] body {
   color: #f8f8f2; }
 
 .dark .ais-search-box--input {
-  background-color: #23252f; }
+  background-color: #EAEBEB; }
 
 .searching {
   overflow: hidden; }
@@ -9000,7 +9000,7 @@ html[dir='rtl'] body {
   color: #D6281C; }
 
 .home-section.dark a {
-  color: #bbdefb; }
+  color: #D6281C; }
 
 /* Override dark colors that may be inherited from body.dark */
 .home-section.dark,
@@ -9072,10 +9072,10 @@ html[dir='rtl'] body {
   background: #F2F3F7; }
 
 .dark .home-section {
-  background: #272935; }
+  background: #EAEBEB; }
 
 .dark .home-section:nth-of-type(even) {
-  background: #23252f; }
+  background: #F2F3F7; }
 
 @media screen and (max-width: 768px) {
   .home-section {
@@ -9556,7 +9556,7 @@ body.dark,
 .dark .modal button.close,
 .dark input {
   color: #f8f8f2;
-  background: #23252f; }
+  background: #EAEBEB; }
 
 .dark .form-control {
   color: #f8f8f2;
@@ -9652,7 +9652,7 @@ body.dark,
 
 .dark .docs-sidebar .nav > li:not(.active) > a {
   color: #f8f8f2;
-  background: #23252f; }
+  background: #EAEBEB; }
 
 div.mermaid {
   width: 100%;

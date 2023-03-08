@@ -52,6 +52,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=hMMgDx0AAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/declanthompson
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -67,4 +70,8 @@ email: ""
 highlight_name: true
 ---
 
-I'm a philosophy graduate student at Stanford University, researching the concept of an algorithm. I'm interested in finding a formal definition for *algorithm* which can account for common usage in modern computer science, particularly fields like algorithmic analysis. Apart from this, I'm pursuing projects in dynamic logic and network games,  and develop a software tool for completing natural deduction proofs.   I enjoy taking on new challenges, which allow me to expand my knowledge and skill set.
+I'm a PhD candidate in Philosophy at Stanford University, a problem solver with background in formal logic, mathematics, linguistics and computer science. As an excellent communicator, I'm able to synthesize and clearly explain complex concepts. I'm a coder with experience in Java, C, C++, LaTeX, and Python.
+
+I have research projects in foundations of computer science, applied modal logic, game theory, and tools for teaching logic. My dissertation falls under philosophy of computer science; I’m working on a formal model for general algorithms.
+
+I'm passionate about problem solving: understanding exactly what a given problem is, what a good solution would look like, and how to reach that solution.
