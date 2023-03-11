@@ -5,14 +5,14 @@ title: "A Night of Recreational Logic"
 event: "Graduate Student Workshop"
 event_url:
 location: "90-92Q, Philosophy Department, Stanford University"
-address: 
+address:
   street:
   city:
   region:
   postcode:
   country:
 summary:
-abstract: "There's two possible talks to give, and I'll decide based on a vote by those present. First, I can discuss Local Fact Change logic. This talk would assume familiarity with modal logic, and cover a number of interesting and well thought through results. Alternatively, I can discuss Rotational Logic. This talk would assume familiarity with propositional logic, and be much more fun, with very poorly thought through conclusions. It's recreational after all."
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ tags: [lfc, "rotational logic"]
 featured: false
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -66,3 +66,5 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+There's two possible talks to give, and I'll decide based on a vote by those present. First, I can discuss Local Fact Change logic. This talk would assume familiarity with modal logic, and cover a number of interesting and well thought through results. Alternatively, I can discuss Rotational Logic. This talk would assume familiarity with propositional logic, and be much more fun, with very poorly thought through conclusions. It's recreational after all.

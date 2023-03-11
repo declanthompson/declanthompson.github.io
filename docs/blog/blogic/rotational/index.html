@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: March 11, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.9e2e7c02a2436e997367a0f71f144776.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Declan Thompson" />
+
+
+
+
+
+  
+
+<meta name="description" content="FP Ramsey makes the following observation in the 1927 &ldquo;Symposium: Facts and Propositions&rdquo;:
+We might, for instance, express negation not by inserting a word &ldquo;not,&rdquo; but by writing what we negate upside down." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://declanthompson.github.io/blog/blogic/rotational/" />
+<link rel="canonical" href="https://declanthompson.github.io/blog/blogic/rotational/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#D6281C" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Declan Thompson" />
+<meta property="og:url" content="https://declanthompson.github.io/blog/blogic/rotational/" />
+<meta property="og:title" content="Rotational Logic | Declan Thompson" />
+<meta property="og:description" content="FP Ramsey makes the following observation in the 1927 &ldquo;Symposium: Facts and Propositions&rdquo;:
+We might, for instance, express negation not by inserting a word &ldquo;not,&rdquo; but by writing what we negate upside down." /><meta property="og:image" content="https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-03-11T11:40:09-08:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-03-11T11:40:09-08:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Rotational Logic | Declan Thompson</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0f77ac0f38e1f6b5c6b01e9b23b6fc65" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.3ef7a0b3c5eb2fe7f888e38c0b1fbea8.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Declan Thompson</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Declan Thompson</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Blogs</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/blogs"><span>All blogs</span></a>
+              
+                <a class="dropdown-item" href="/blog/aiart"><span>AI Generated Art</span></a>
+              
+                <a class="dropdown-item" href="/blog/blogic"><span>Blogic</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Background</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/background/#experience"><span>Experience</span></a>
+              
+                <a class="dropdown-item" href="/background/#education"><span>Education</span></a>
+              
+                <a class="dropdown-item" href="/background/#accomplishments"><span>Awards and Scholarships</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/confpub"><span>Publications and Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+      
+      
+      <div class="article-container py-1" style="background: initial">
+        
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+    
+  
+    
+  
+    
+  
+
+    <li class="breadcrumb-item">
+      <a href="/">
+        
+          Home
+        
+      </a>
+    </li>
+  
+
+    <li class="breadcrumb-item">
+      <a href="/blog/">
+        
+          Blog
+        
+      </a>
+    </li>
+  
+
+    <li class="breadcrumb-item">
+      <a href="/blog/blogic/">
+        
+          The Blogic
+        
+      </a>
+    </li>
+  
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Rotational Logic
+      </li>
+    </ol>
+  </nav>
+
+
+
+
+      </div>
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Rotational Logic</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    11 March 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>FP Ramsey makes the following observation in the 1927 &ldquo;Symposium: Facts
+and Propositions&rdquo;:</p>
+<blockquote>
+<p>We might, for instance, express negation not by inserting a word
+&ldquo;not,&rdquo; but by writing what we negate upside down. Such a symbolism is
+only inconvenient because we are not trained to perceive complicated
+symmetry about a horizontal axis, and if we adopted it we should be
+rid of the redundant &ldquo;not-not,&rdquo; for the result of negating the
+sentence &ldquo;p&rdquo; twice would simply be the sentence &ldquo;p&rdquo; itself. (p161-2)
+$\newcommand{\RR}[2]{\mathrel{\style{display: inline-block; transform: rotate(#1deg)}{#2}}}$
+$\newcommand{\dotcup}{\mathbin{\unicode{x228D}}}$
+$\newcommand{\dotg}{\mathbin{\unicode{x22D7}}}$</p>
+</blockquote>
+<p>Ramsey&rsquo;s observation is a side comment in a larger argument about the
+nature of relations between propositions, but it suggests a different
+approach to logical notation. Rather than writing $\lnot p$, we can
+write $\RR{180}{p}$.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Perhaps
+surprisingly, this rotated negation extends to more complex formulae,
+capturing the De-Morgan laws.
+$$\RR{180}{(p \lor q)} \leftrightarrow \lnot (p \lor q) \leftrightarrow (\lnot p \land \lnot q)$$
+Using the standard notation for disjunction ($\lor$) and conjunction
+($\land$), we can easily read off the meaning of a rotationally negated
+formula simply by treating all logical connectives as they appear, and
+rotated propositions as being negated.</p>
+<p>Unfortunately, this happy situation does not remain for other
+connectives. If $\supset$ is the material conditional, it is natural to
+interpret $\RR{180}{\supset}$ as the
+material conditional in the other direction, but this does
+not correspond to negation.
+$$\RR{180}{(p\supset q)} \leftrightarrow \lnot(p \supset q) \leftrightarrow (p \land \lnot q) \not\leftrightarrow (\lnot q \supset\lnot p)$$
+Interpreting $\RR{180}{\supset}$ simply as
+the negation of $\supset$ feels inelegant. Instead, we should hope that
+the rotated notation intuitively conveys its meaning.</p>
+<p>This blog post is an attempt to elaborate on what such a rotational
+notation for logic would look like. During the course of exposition, we
+will discover a new branch of logic (rotational logic) which deals with
+invariance properties over permutations of logical connectives.</p>
+<h3 id="rotational-logic">Rotational Logic</h3>
+<p>Of Ramsey&rsquo;s observation, we will keep only the idea of rotating
+formulas. In fact, we will make a great number of changes. Where for
+Ramsey, rotation gives negation, for us it will merely result in a
+change of logical connectives, not necessarily negation. Where Ramsey
+rotated propositional letters, we will keep them upright, and rotate
+only the connective. Where Ramsey&rsquo;s formulas were rotated overall
+($(p \lor q)$ becomes
+$\RR{180}{(p \lor q)}$), ours will be
+rotated in place ($(p \RR{180}{\land}q)$
+becomes $(p \land q)$). Finally, where Ramsey employs only 180 degree
+rotations, we will also utilise 90 degree rotations.</p>
+<p>Formally, the language of rotational logic is defined as follows:
+$$\varphi:: = p \mid (\varphi\land\varphi) \mid (\varphi\supset\varphi) \mid {\varphi}^\circ \mid {\varphi }^\cdot$$
+The notation ${\varphi}^\circ$ is understood to mean a single 90-degree rotation of the connectives in a formula. I will abbreviate this by writing:
+$$\begin{aligned}
+{p}^\circ &amp;= p \\
+{(\varphi\sqcup\psi)}^\circ &amp;= ({\varphi}^\circ\RR{-90}{\sqcup}{\psi}^\circ),
+\end{aligned}$$
+where $\sqcup$ is any binary operation (in any
+rotation).
+The notation ${\varphi}^\cdot$ indicates a change in the first truth value in a truth table for each connective. I will abbreviate this by writing a $\cdot$ inside each connective.</p>
+<p>The language is fundamentally propositional, so we give semantic
+definitions in terms of truth tables. The definition of each symbol
+depends on the rotation of that symbol. We begin with the semantics for
+the point symbol.
+$$\begin{array}{c c | c | c | c | c}
+\varphi &amp; \psi &amp; (\varphi\land\psi) &amp; (\varphi\RR{-90}{\land}\psi) &amp; (\varphi\RR{180}{\land} \psi) &amp; (\varphi\RR{90}{\land}\psi)\\
+1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\
+1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+\end{array}$$
+As can be seen, the $\land$ symbol matches closely
+with the standard conjunction and disjunction symbols. The
+$\RR{-90}{\land}$ symbol can be read as
+&ldquo;the truth value on the left&rdquo;, and
+$\RR{90}{\land}$
+can be read as &ldquo;the truth value on the right&rdquo;. In this way, the symbols
+and their rotations align with how we expect them to behave.</p>
+<p>We have a similar correspondence with $\supset$, which behaves
+identically to the material conditional.
+$$\begin{array}{c c | c | c | c | c}
+\varphi &amp; \psi &amp; (\varphi\supset\psi) &amp; (\varphi\RR{-90}{\supset}\psi) &amp; (\varphi\RR{180}{\supset} \psi) &amp; (\varphi\RR{90}{\supset}\psi)\\
+1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\
+0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1
+\end{array}$$
+As can be seen,
+$\RR{180}{\supset}$
+behaves like material conditional in the other direction.
+$\RR{-90}{\supset}$ is the biconditional
+and
+$\RR{90}{\supset}$
+is binary tautology.</p>
+<p>For both sets of truth tables, the behaviour of the unfamiliar operators
+$\RR{-90}{\supset}$,
+$\RR{90}{\supset}$,
+$\RR{-90}{\land}$ and $\RR{90}{\land}$
+seems at first arbitrary. The justification for their definitions can be
+seen in how we deal with ${\varphi}^\cdot$. The reader will notice that
+in all truth functions thus far described, the output is $1$ when both $\varphi$ and $\psi$ have true value $1$. The $\cdot$ operator expands the system by
+changing the value of the first bit.
+In particular, we have the following truth tables:
+$$\begin{array}{c c | c | c | c | c}
+\varphi &amp; \psi &amp; (\varphi\RR{-90}{\dotg}\psi) &amp; (\varphi\RR{-180}{\dotg}\psi) &amp; (\varphi\RR{90}{\dotg} \psi) &amp; (\varphi\RR{0}{\dotg}\psi)\\
+1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
+1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+\end{array}$$
+$$\begin{array}{c c | c | c | c | c}
+\varphi &amp; \psi &amp; (\varphi\RR{-90}{\dotcup}\psi) &amp; (\varphi\RR{180}{\dotcup}\psi) &amp; (\varphi\RR{90}{\dotcup} \psi) &amp; (\varphi\RR{}{\dotcup}\psi)\\
+1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\
+0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1
+\end{array}$$</p>
+<p>So where is the justification for our choice of semantics? Well, we now
+have a relationship between the pointed operators $\land$ and the curved
+operators $\supset$! What relationship, I hear you cry? Consider a
+truth table for $\supset$ and
+$\dotg$.
+$$\begin{array}{c c | c | c}
+\varphi &amp; \psi &amp; (\varphi \supset\psi) &amp; (\varphi\dotg\psi)\\
+1 &amp; 1 &amp; 1 &amp; 0\\
+1 &amp; 0 &amp; 0 &amp; 1\\
+0 &amp; 1 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0
+\end{array}$$
+The table for
+$\dotg$
+is the table for the negation of $\supset$! In fact, any binary
+operation can be negated by switching between curve and point, and
+adding a dot. We leave it to the reader to check this correspondence.</p>
+<p>Let us summarise what we have defined. We now have a language with a
+separate operator for each of the 16 possible binary boolean functions.
+Our language intuitively allows us to select an operation to apply, by
+combining rotations and dots. There is a natural correspondence between
+the curved and the pointed symbols. Further, as the reader can check,
+every pointed symbol takes $\varphi = \psi = 0$ to be false, and every
+curved to be true. The system is made even more elegant by the lack of
+unary operators, without losing expressiveness. To write $\neg p$, we can
+instead use
+$(p\RR{-90}{\dotcup}\varphi)$
+for any formula $\varphi$ (again, the reader is encouraged to check
+this).</p>
+<h3 id="defining-classical-logic">Defining Classical Logic</h3>
+<p>Call a formula <em>rotationally invariant</em> if it gives the same truth
+values on every rotation. Is every formula equivalent to a rotationally
+invariant formula? More specifically, are we able to define rotationally
+invariant versions of the classical operators?</p>
+<p>Negation is easy. Take
+$$\neg\varphi := \varphi\dotcup\varphi.$$
+It is easy to check this is equivalent to our classical $\neg \varphi$
+for every rotation. Now can we obtain classical conjunction,
+$\&amp;$? Indeed we can. Take
+$$\varphi\mathbin{\&amp;}\psi := (((\psi\RR{180}{\land}\varphi)  \RR{90}{\land} \psi ) \land(\varphi \RR{-90}{\land} (\psi\RR{180}{\land}\varphi) )).$$
+Then we have $$\begin{aligned}
+(\varphi\mathbin{\&amp;}\psi) &amp;= (((\psi\RR{180}{\land}\varphi)  \RR{-90}{\land} \psi ) \land(\varphi \RR{90}{\land} (\psi\RR{180}{\land}\varphi) )) \\&amp;\approx (\psi \land\varphi) \\\\
+{(\varphi\mathbin{\&amp;}\psi)}^\circ &amp;= (((\psi\RR{-90}{\land}\varphi)  \land\psi ) \RR{90}{\land} (\varphi \RR{180}{\land} (\psi\RR{-90}{\land}\varphi)  ))\\
+&amp;\approx (((\psi\RR{-90}{\land}\varphi)  \land\psi ) \\&amp;\approx (\varphi \land\psi) \\\\
+{{(\varphi\mathbin{\&amp;}\psi)}^\circ}^\circ &amp;= (((\psi\land\varphi) \RR{90}{\land} \psi ) \RR{180}{\land} (\varphi \RR{-90}{\land} (\psi\land\varphi) )) \\
+&amp;\approx (((\psi\land\varphi)) \RR{180}{\land} ((\psi\land\varphi) )) \\&amp;\approx (\varphi \land\psi) \\\\
+{{{(\varphi\mathbin{\&amp;}\psi)}^\circ}^\circ}^\circ &amp;= (((\psi\RR{90}{\land}\varphi)  \RR{180}{\land} \psi ) \RR{-90}{\land} (\varphi \land(\psi\RR{90}{\land}\varphi) )) \\
+&amp;\approx(\varphi \land(\psi\RR{90}{\land}\varphi) )) \\&amp;\approx (\varphi \land\psi)
+\end{aligned}$$</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>My interpretation of Ramsey as indicating a rotation, rather than a
+mirroring in the horizontal axis, is purely speculative, but it ties
+in more closely with the exposition in the rest of this paper.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/rotational-logic/">rotational logic</a>
+  
+  <a class="badge badge-light" href="/tag/logic/">logic</a>
+  
+  <a class="badge badge-light" href="/tag/fun/">fun</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://mastodonshare.com/?text=Rotational&#43;Logic&amp;url=https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F" target="_blank" rel="noopener" class="share-btn-mastodon" aria-label="mastodon">
+          <i class="fab fa-mastodon"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F&amp;t=Rotational&#43;Logic" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Rotational%20Logic&amp;body=https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F&amp;title=Rotational&#43;Logic" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Rotational&#43;Logic%20https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fdeclanthompson.github.io%2Fblog%2Fblogic%2Frotational%2F&amp;title=Rotational&#43;Logic" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://declanthompson.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hudf76f12eb63682b3c55fd0fb979982df_2307407_270x270_fill_q75_lanczos_center.jpg" alt="Declan Thompson"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://declanthompson.github.io/">Declan Thompson</a></h5>
+      <h6 class="card-subtitle">PhD Student in Philosophy</h6>
+      <p class="card-text">PhD student in Philosophy at Stanford University</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/declanalthompson" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://stanford.academia.edu/DeclanThompson" target="_blank" rel="noopener">
+        <i class="ai ai-academia"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=hMMgDx0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/declanthompson" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+</div>
+
+</div>
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/talk/gsw_19-05-02/">A Night of Recreational Logic</a></li>
+      
+      <li><a href="/project/ndp/">Natural Deduction Planner</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Declan Thompson. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.2874310ae8b20e08948b8e82aa4b36db.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

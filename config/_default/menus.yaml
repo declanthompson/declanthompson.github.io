@@ -7,6 +7,22 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: Blogs
+    url: blog
+    weight: 15
+    identifier: blog_menu
+  - name: All blogs
+    url: blogs
+    weight: 15
+    parent: blog_menu
+  - name: AI Generated Art
+    url: blog/aiart
+    weight: 16
+    parent: blog_menu
+  - name: Blogic
+    url: blog/blogic
+    weight: 16
+    parent: blog_menu
   - name: Background
     url: 'background'
     weight: 20

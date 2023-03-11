@@ -2,11 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://declanthompson.github.io/publication-type/2/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <loc>https://declanthompson.github.io/blog/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://declanthompson.github.io/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/tag/fun/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/tag/logic/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/tag/rotational-logic/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/blog/blogic/rotational/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/tags/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/blog/blogic/</loc>
+    <lastmod>2023-03-11T11:40:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/blog/aiart/</loc>
+    <lastmod>2023-03-09T15:55:58-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/blog/aiart/citypark/</loc>
+    <lastmod>2023-03-09T15:55:58-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/blog/aiart/bottestcosdel/</loc>
+    <lastmod>2023-03-09T12:05:21-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://declanthompson.github.io/publication-type/2/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -82,10 +122,6 @@
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://declanthompson.github.io/tags/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://declanthompson.github.io/tag/turing-machines/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -106,10 +142,6 @@
     <lastmod>2019-05-02T18:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://declanthompson.github.io/tag/rotational-logic/</loc>
-    <lastmod>2019-05-02T18:30:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://declanthompson.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -120,10 +152,6 @@
   </url><url>
     <loc>https://declanthompson.github.io/publication/thompson-teaching-2017/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://declanthompson.github.io/tag/logic/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://declanthompson.github.io/tag/natural-deduction/</loc>
@@ -212,10 +240,10 @@
     <loc>https://declanthompson.github.io/background/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://declanthompson.github.io/categories/</loc>
+    <loc>https://declanthompson.github.io/blogs/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://declanthompson.github.io/post/</loc>
+    <loc>https://declanthompson.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://declanthompson.github.io/projects/</loc>

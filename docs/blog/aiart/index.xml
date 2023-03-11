@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventures with AI Generated Art | Declan Thompson</title>
+    <link>https://declanthompson.github.io/blog/aiart/</link>
+      <atom:link href="https://declanthompson.github.io/blog/aiart/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adventures with AI Generated Art</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Mar 2023 15:55:58 -0800</lastBuildDate>
+    <image>
+      <url>https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
+      <title>Adventures with AI Generated Art</title>
+      <link>https://declanthompson.github.io/blog/aiart/</link>
+    </image>
+    
+    <item>
+      <title>City Park at Night</title>
+      <link>https://declanthompson.github.io/blog/aiart/citypark/</link>
+      <pubDate>Thu, 09 Mar 2023 15:55:58 -0800</pubDate>
+      <guid>https://declanthompson.github.io/blog/aiart/citypark/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A view of the moon in late afternoon from a city park, but the moon is actually the Earth, digital art&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is more text.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bottest Cosdel</title>
+      <link>https://declanthompson.github.io/blog/aiart/bottestcosdel/</link>
+      <pubDate>Thu, 09 Mar 2023 12:05:21 -0800</pubDate>
+      <guid>https://declanthompson.github.io/blog/aiart/bottestcosdel/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Album cover art of the prog rock concept album The Goldbach Conjecture by the Beastie Boys&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This was one of my earliest interactions with DALL·E. I was looking for genres of art which fitted the square canvas, hence the choice of album cover art. To make things as abstract as I could, I chose a prog rock concept album specifically. I was curious as to how the model would depict mathematical concepts (in particular, are any mathematical diagrams part of the training data?). Specifying that the album was by the Beastie Boys made things even less plausible.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

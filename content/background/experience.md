@@ -73,7 +73,7 @@ experience:
     date_start: '2020-01-13'
     date_end: '2020-03-26'
     description: |2-
-        Guest at the Institute for Logic, Language and Computation.  Interacted with researchers and gave a talk at the LIRa seminar.
+        Guest at the Institute for Logic, Language and Computation.  Interacted with researchers and gave a [talk]({{< relref "/talk/lira_2020-02-13" >}}) at the LIRa seminar.
 
   - title: Visiting Scholar
     company: Tsinghua University
