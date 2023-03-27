@@ -14,10 +14,10 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  filename: "DALL·E 2022-09-09 10.38.41 - A view of the moon in late afternoon from a city park, but the moon is actually the Earth, digital art.png"
+  filename: "citypark.png"
   caption: "A view of the moon in late afternoon from a city park, but the moon is actually the Earth, digital art"
   focal_point: "Bottom"
-  preview_only: true
+  preview_only: false
   placement: 1
 
 # Projects (optional).
@@ -31,5 +31,3 @@ pager: true
 ---
 
 > A view of the moon in late afternoon from a city park, but the moon is actually the Earth, digital art
-
-This is more text. 

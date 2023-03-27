@@ -1,16 +1,16 @@
-+++
+---
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+widget: portfolio
+headless: true  # This file represents a page section.
+active: true  # Activate this widget? true/false
+weight: 10  # Order that this section will appear.
 
-title = "All blogs"
-subtitle = "All of my blog posts in a single listing"
+title: "All blogs"
+subtitle: "All my blog posts in a single listing"
 
-[content]
+content:
   # Page type to display. E.g. project.
-  page_type = "blog"
+  page_type: "blog"
 
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -19,35 +19,31 @@ subtitle = "All of my blog posts in a single listing"
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
 
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
+  filter_default: 0
 
-   [[content.filter_button]]
-     name = "All"
-     tag = "*"
-
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  filter_button:
+    - name: "all"
+      tag: "*"
 
   # [[content.filter_button]]
   #   name = "Other"
   #   tag = "Demo"
 
-[design]
+design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns: "2"
 
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view: 3
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = true
+  flip_alt_rows: true
 
-[design.background]
+design.background:
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
@@ -67,10 +63,10 @@ subtitle = "All of my blog posts in a single listing"
   # Text color (true=light or false=dark).
   # text_color_light = true
 
-[advanced]
+advanced:
  # Custom CSS.
- css_style = ""
+ css_style: ""
 
  # CSS class.
- css_class = ""
-+++
+ css_class: ""
+---
