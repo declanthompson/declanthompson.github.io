@@ -1,7 +1,7 @@
 ---
 title: "Bottest Cosdel"
 subtitle: "By Godgball Butcolock"
-summary: ""
+summary: "This was one of my earliest interactions with DALL·E. I was looking for genres of art which fitted the square canvas, hence the choice of album cover art. To make things as abstract as I could, I chose a prog rock concept album specifically. I was curious as to how the model would depict mathematical concepts (in particular, are any mathematical diagrams part of the training data?). Specifying that the album was by the Beastie Boys made things even less plausible."
 authors: []
 tags: []
 categories: []

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Declan Thompson</title>
+    <title>Blogs | Declan Thompson</title>
     <link>https://declanthompson.github.io/blog/</link>
       <atom:link href="https://declanthompson.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <description>Blog</description>
+    <description>Blogs</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 11:40:09 -0800</lastBuildDate>
     <image>
       <url>https://declanthompson.github.io/media/icon_hu2a9db88cbe2ad48b4e1a5a65a1ed47a5_9519_512x512_fill_lanczos_center_3.png</url>
-      <title>Blog</title>
+      <title>Blogs</title>
       <link>https://declanthompson.github.io/blog/</link>
     </image>
     

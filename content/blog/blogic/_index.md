@@ -12,12 +12,14 @@ view: card
 design:
   columns: 2
 
-
+image:
+  filename: blogic_hero.png
+  preview_only: true
 
 # Optional header image (relative to `static/media/` folder).
-header:
+banner:
   caption: ""
-  image: ""
+  image: blogic_hero.png
 ---
 
 Sometimes I want to do logic-related things that aren't really appropriate for publication - typically because they're spuriously or completely unjustified. That's the focus of this blog.

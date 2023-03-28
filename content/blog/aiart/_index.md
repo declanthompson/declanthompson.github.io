@@ -11,7 +11,11 @@ view: declan_showcase
 
 
 # Optional header image (relative to `static/media/` folder).
-header:
+banner:
   caption: ""
-  image: ""
+  image: "aiart_hero.png"
 ---
+
+The recent explosion of generative AI models has led to a lot of fun interactions between humans and computers. Here I document some of my experiences with models like DALL·E and ChatGPT.
+
+</br>

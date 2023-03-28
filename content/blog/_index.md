@@ -1,12 +1,12 @@
 ---
-title: Blog
+title: Blogs
 cms_exclude: true
 
 # View.
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+view: declan_showcase
 
 # Optional header image (relative to `static/media/` folder).
 header:
@@ -14,5 +14,3 @@ header:
   image: ""
 
 ---
-
-Ahoy to you there

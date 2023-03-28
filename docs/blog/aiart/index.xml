@@ -20,6 +20,434 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;A view of the moon in late afternoon from a city park, but the moon is actually the Earth, digital art&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;For this image, I wanted something evocative. I&amp;rsquo;d been inspired by the numerous example images of astronauts to create an image set in space. I also wanted to see how well DALL·E could interpret clear prompts for specific items, even when the descriptions of those items is somewhat vague. What distinguishes a city park from any other? I don&amp;rsquo;t know. But the resulting image better be a city park!&lt;/p&gt;
+&lt;h2 id=&#34;initial-results&#34;&gt;Initial results&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/initial&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial1.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial1_hu59c5f6420becc85297dfbef64644c369_1587652_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;initial1.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/initial&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial2.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial2_hu9ccd707607ba938045b0bea1e1d4cf00_1559038_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;initial2.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/initial&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial3.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial3_hu4a06ae4918399e427528d53d6deb228b_1575520_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;initial3.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/initial&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial4.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/initial/initial4_hu68c65d00b9832f6a415857f86ba14a09_1853476_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;initial4.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;DALL·E certainly delivered a city park. Again, I&amp;rsquo;m not sure what that means, but the vibe is definitely right. A lamp post seems to be important. Possibly a fence. Definitely concrete. All the images look to be &amp;ldquo;digital art&amp;rdquo;. I particularly like the &amp;ldquo;brush&amp;rdquo; strokes in the third image.&lt;/p&gt;
+&lt;p&gt;Some features of the original prompt didn&amp;rsquo;t quite make it. All of these feel much more evening/night than late afternoon. While they all have a moon-like object, only the first image clearly shows this object to be Earth (for some generous sense of &amp;ldquo;clearly&amp;rdquo;). The second and third could just as well be the moon, and the object in the fourth image is &lt;em&gt;definitely&lt;/em&gt; the moon.&lt;/p&gt;
+&lt;p&gt;I find it interesting that the parks are all deserted. My experience of city parks is that they&amp;rsquo;re over-crowded - especially the sorts of parks depicted here, with large cities in the background. I wonder if the specification that it&amp;rsquo;s &amp;ldquo;late afternoon&amp;rdquo; played a role here.&lt;/p&gt;
+&lt;h2 id=&#34;expanding-the-red-bench&#34;&gt;Expanding the red bench&lt;/h2&gt;
+&lt;p&gt;I was taken by the red bench in the first image DALL·E generated. The contrast in colours was striking. I wanted to see more of the bench! So I asked DALL·E to fill that in using a generation frame. I only preserved the part of the image with the bench in it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A red park bench in front of a lonely canal in the city at night, digital art&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &amp;ldquo;lonely canal&amp;rdquo; was meant to preserve the mood of the original and keep the consistency of the overall image: a canal explains the drop-off to the right of the bench in the original image. I also switched to &amp;ldquo;night&amp;rdquo; to stop any strange effects in the sky. Digital art aimed to keep the original style intact.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/bench&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench1.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench1_hu5b489662863cebc00f77142ca21f46a3_997110_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;bench1.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/bench&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench2.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench2_hua9a0d0fc804bf515d6a68ccf96a9c4e9_1008096_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;bench2.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/bench&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench3.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench3_huf53ea2f8e61653a8a14cbd656e2ca4d0_992989_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;bench3.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/bench&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench4.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/bench/bench4_hu7012e62d904f266b496a077917320883_1050132_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;bench4.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;The effect of &amp;ldquo;red&amp;rdquo; is immediately apparent. DALL·E seems to have been just as enthusiastic about the contrast as I was, resulting in three images with a sudden change in the brightness of the red bench. This makes for a very clear seam. Intriguingly, the seam is not where the images are actually stitched together: it runs diagonally, but the generation frame has a vertical boundary. The easiest place to see the actual seam is in the third image (the one without a bright-red portion on the bench).&lt;/p&gt;
+&lt;p&gt;I believe this phenomenon where there&amp;rsquo;s something of a change in the style of the image is call &amp;ldquo;style drifting&amp;rdquo;. Idea for a future image project: an image of cars drifting with the style of the image drifting across it.&lt;/p&gt;
+&lt;p&gt;The least jarring bench is the one with the same tone of red as in the original image. That bench has water behind it (the canal!) and what looks like a cemetery. I wonder if this cemetery comes from the &amp;ldquo;lonely&amp;rdquo; prompt.&lt;/p&gt;
+&lt;h2 id=&#34;what-sort-of-lamp-is-that&#34;&gt;What sort of lamp is that?&lt;/h2&gt;
+&lt;p&gt;I now had quite a wide image, and I wanted to make it square. But, in particular, I wanted to know what the lamp looked like. What shape might it have? Did DALL·E have good ideas?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The moon low in a calm night sky, with a lamp post silhouetted in the foreground, digital art&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It looks pretty much like the moon in the original picture, even if the colours are suggestive of Earth. I worried that specifying &amp;ldquo;the moon but it&amp;rsquo;s actually the earth&amp;rdquo; would just confuse things. A &lt;em&gt;calm&lt;/em&gt; night sky is intended to avoid any billowing clouds or rain. I was interested to see if we&amp;rsquo;d get any stars by just saying &amp;ldquo;calm&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/lamp&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp1.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp1_hu9b12ce40c5f368e22892a98158dbe1a5_931316_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;lamp1.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/lamp&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp2.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp2_hu0881207760d26ea365b0c6a67df2a466_919721_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;lamp2.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/lamp&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp3.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp3_hu0bf746adac00ca10fd779d00d2bff8a6_952123_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;lamp3.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/lamp&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp4.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/lamp/lamp4_hu5dbc628307e4a7660d60e81df1d1c87a_917530_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;lamp4.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;Well, four different types of lamp. I guess the prompt I gave didn&amp;rsquo;t offer much room for manoeuvre. Still, there&amp;rsquo;s some nice variations in the sillhouetted lamp! I really like the very tall pointy one (image 2). The slightly squat third option feels like it fits the setting most though.&lt;/p&gt;
+&lt;h2 id=&#34;the-remaining-corner&#34;&gt;The remaining corner&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re keeping track, you&amp;rsquo;ll know that I&amp;rsquo;ve outpainted the original image to the left and up. That leaves the top left corner unfilled. Now the goal is to fill it. At first I thought I&amp;rsquo;d try to add to the atmosphere of the image.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A foreboding night sky above silhouetted tree-tops, digital art&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Unfortunately, &amp;ldquo;foreboding&amp;rdquo; is strongly associated with bad weather, so DALL·E tried its best to include some clouds. That meant a change in the style of the sky, with a clear seam. So I tried to make sure the colouration would remain consistent:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A dark night sky above silhouetted tree-tops, digital art&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The first four images are &amp;ldquo;foreboding&amp;rdquo;, the second four are &amp;ldquo;dark&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner1.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner1_hu039c72281afffc98f2ba68ea0ca140fc_395233_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner1.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner2.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner2_hu407140e33be1a9bb9cb9a1daf2c89196_400290_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner2.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner3.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner3_huf6ffe20f0f4ba86ed893f46a23b04672_432424_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner3.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner4.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner4_hu988fc67388bcd3636fc051941666ebf0_411030_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner4.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner5.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner5_huff1adff5997cbf931e9cdeb8cd1eed27_397620_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner5.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner6.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner6_hu686b3182583edfadfac23ad4034a3322_391907_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner6.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner7.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner7_hu36753a8c203fd6c5eb3625d137fb53af_394872_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner7.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+    
+    
+    
+    
+    
+  
+  
+  &lt;div class=&#34;gallery-item gallery-item--medium&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery-aiart/citypark/corner&#34; href=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner8.png&#34; &gt;
+      &lt;img src=&#34;https://declanthompson.github.io/media/albums/aiart/citypark/corner/corner8_hufd08f62ff54bf4737f3b9b3e5849499b_390933_750x750_fit_q75_h2_lanczos_3.webp&#34; loading=&#34;lazy&#34; alt=&#34;corner8.png&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re all pretty boring, but that&amp;rsquo;s what I was expecting. The biggest challenge is finding a seamless outpainting. The 6th image seems to be the best (seams to be?), so that&amp;rsquo;s what I went with.&lt;/p&gt;
+&lt;h2 id=&#34;the-final-image&#34;&gt;The final image&lt;/h2&gt;
+&lt;p&gt;Putting all the pieces together, we have an image of a city park at night.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /blog/aiart/citypark/citypark_hudf43112a0cd47f4d9642d603c885615c_1396670_72dbe5140680f554f557b534130c162a.webp 400w,
+               /blog/aiart/citypark/citypark_hudf43112a0cd47f4d9642d603c885615c_1396670_380e7c35f409e01e931a4386e10213df.webp 760w,
+               /blog/aiart/citypark/citypark_hudf43112a0cd47f4d9642d603c885615c_1396670_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://declanthompson.github.io/blog/aiart/citypark/citypark_hudf43112a0cd47f4d9642d603c885615c_1396670_72dbe5140680f554f557b534130c162a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 </description>
     </item>
     
