@@ -8,7 +8,9 @@ cms_exclude: true
 #   3 = Card
 view: declan_showcase
 
-
+image:
+  filename: aiart_hero.png
+  preview_only: true
 
 # Optional header image (relative to `static/media/` folder).
 banner:
